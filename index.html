@@ -1,23 +1,56 @@
 <!doctype html>
 <html lang="pt">
   <head>
-     <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Login</title>
+
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
 
   </head>
   <body >
 
-    <div class="container-fluid text-primary">
-      <div class="row">
-      </div>
-    </div>
+
+     <div class="container-fluid">
+        <div class="modal-dialog text-center">
+            <div class="col-sm-9 main-section">
+                <div class="modal-content">
+
+                  <div class="col-12 user-img " >
+                    <img src="assets/images/login.png" ">
+                  </div>
+
+                  <div class="col-12 form-input">
+                    <form>
+                      <div class="form-group">
+                        <label for="usuario" class="d-flex justify-content-start font-weight-bold labeluser">Usuário:</label>
+                        <input type="text" class="form-control" placeholder="Informe o usuário" id="usuario">
+                      </div>
+                      <div class="form-group">
+                        <label for="password" class="d-flex justify-content-start font-weight-bold labeluser">Senha:</label>
+                        <input type="password" class="form-control" placeholder="Informe a senha" id="password">
+                      </div>
+
+                      <button type="submit" class="btn btn-success text-dark">ENTRAR</button>
+                    </form>
+                  </div>
+
+                  <div class="col-12 forgot ">
+                    <a href="#" class="text-white"> Esqueceu a senha? </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
 
 
 

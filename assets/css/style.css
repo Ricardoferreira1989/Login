@@ -1,0 +1,61 @@
+body {
+
+    background-color: #33ccff ;
+}
+
+.main-section {
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0;
+}
+
+.modal-content {
+    background-color: #4388cc;
+    padding: 0 25px;
+    border-radius: 10px;
+}
+
+.user-img img{
+    height: 150px;
+}
+
+.user-img {
+    margin-top: -79px;
+    margin-bottom: 45px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group input {
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+.labeluser {
+    font-size: 18px;
+}
+
+.form-input button {
+    width: 40%;
+    margin: 5px 0 25px;
+}
+
+.btn-success {
+    background-color: #eeeeee;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: 1px solid #daf1ff;
+}
+
+.forgot {
+    padding: 5px 0 25px;
+}
+
+
+
